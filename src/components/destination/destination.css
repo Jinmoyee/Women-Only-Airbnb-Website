@@ -1,0 +1,22 @@
+.destination-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  min-width: 500px;
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+span {
+  font-weight: 600;
+  color: #d6536d;
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+p {
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}

@@ -1,0 +1,53 @@
+/* CheckInOutCalendar CSS */
+.check-in-out-calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 8px;
+  /* width: 200px;
+  min-width: 100px; */
+  text-align: center;
+}
+
+.date-picker {
+  margin: 10px;
+  background-color: white;
+  border-radius: 10px;  
+  padding: 3rem;
+}
+
+
+.date-picker label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.react-datepicker {
+  font-family: Arial, sans-serif;
+}
+
+.date-input {
+  outline: none;
+  
+}
+
+.react-datepicker__input-container input {
+  border: 2px solid #FF647F;
+  color: #d65d6d;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  width: 300px;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.react-datepicker-popper {
+  z-index: 9999;
+}
+
+::placeholder {
+  color: #d65d6d;
+}

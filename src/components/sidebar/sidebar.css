@@ -1,0 +1,26 @@
+.link-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10rem;
+    gap: 40px;
+    height: calc(100vh - 4rem);
+    padding-bottom: 10rem;
+    background-color: #d6536d;
+    .links {
+        font-size: 1.875rem;
+        font-weight: 600;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+        border-bottom: 5px solid #d6536d;
+    }
+
+    .links:hover {
+        border-bottom: 5px solid white;
+    }
+}
+
+

@@ -1,0 +1,39 @@
+.nav-container {
+    overflow: hidden;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: 700;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: white;
+    color: #d6536d;
+}
+
+.nav-logo {
+    margin-top: 0.5rem;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.link {
+    text-decoration: none;
+    color: #d6536d;
+    padding: 0.2rem;
+    border: 3px solid white;
+}
+
+.link:hover {
+    cursor: pointer;
+    border-bottom: 3px solid #d6536d;
+    border-radius: 6px;
+}

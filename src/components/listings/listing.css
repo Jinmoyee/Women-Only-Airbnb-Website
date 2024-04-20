@@ -1,0 +1,43 @@
+.listing-container {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1.5rem,
+}
+
+.listings {
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.image {
+    height: 20rem;
+    width: 25rem;
+}
+
+.listing-text {
+    padding: 1rem;
+    span {
+        text-decoration: none;
+    }
+    div {
+    padding: 0.1rem;
+    }
+}
+
+.pricing {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.name {
+    font-size: 1.3rem;
+}
+
+
+  
